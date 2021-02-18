@@ -165,35 +165,45 @@ font:
 # If `true`, bold text is drawn using the bright color variants.
 #draw_bold_text_with_bright_colors: false
 
-# Colors (Material Theme)
-colors:
-  # Default colors
+  colors:
+    # Default colors
   primary:
-    background: '0x1e282d'
-    foreground: '0xc4c7d1'
+    background: '#292C3E'
+    foreground: '#EBEBEB'
 
-  # Normal colors
-  normal:
-    black:   '0x666666'
-    red:     '0xeb606b'
-    green:   '0xc3e88d'
-    yellow:  '0xf7eb95'
-    blue:    '0x80cbc4'
-    magenta: '0xff2f90'
-    cyan:    '0xaeddff'
-    white:   '0xffffff'
+      # Cursor colors
+    cursor:
+      text: '#FF261E'
+      cursor: '#FF261E'
 
-  # Bright colors
-  bright:
-    black:   '0xa1a1a1'
-    red:     '0xeb606b'
-    green:   '0xc3e88d'
-    yellow:  '0xf7eb95'
-    blue:    '0x7dc6bf'
-    magenta: '0x6c71c4'
-    cyan:    '0x35434d'
-    white:   '0xffffff'
+        # Normal colors
+      normal:
+        black:   '#0d0d0d'
+        red:     '#FF301B'
+        green:   '#A0E521'
+        yellow:  '#FFC620'
+        blue:    '#1BA6FA'
+        magenta: '#8763B8'
+        cyan:    '#21DEEF'
+        white:   '#EBEBEB'
 
+          # Bright colors
+        bright:
+          black:   '#6D7070'
+          red:
+            '#FF4352'
+          green:
+            '#B8E466'
+          yellow:
+            '#FFD750'
+          blue:
+            '#1BA6FA'
+          magenta:
+            '#A578EA'
+          cyan:
+            '#73FBF1'
+          white:
+            '#FEFEF8'
 # Colors (Tomorrow Night)
 # colors:
 # Default colors

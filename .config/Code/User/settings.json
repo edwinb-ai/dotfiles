@@ -8,7 +8,7 @@
     "editor.cursorBlinking": "solid",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "workbench.colorTheme": "One Dark Pro",
+    "workbench.colorTheme": "Atom One Dark",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -142,5 +142,9 @@
     "vim.handleKeys": {
         "<C-a>": false,
         "<C-f>": false
-    }
+    },
+    "python.formatting.provider": "black",
+    "fortran-ls.lowercaseIntrinsics": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.formatOnSave": true
 }
