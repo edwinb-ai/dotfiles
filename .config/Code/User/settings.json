@@ -8,7 +8,6 @@
     "editor.cursorBlinking": "solid",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "workbench.colorTheme": "Atom One Dark",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -52,8 +51,8 @@
     ],
     "julia.enableTelemetry": true,
     "julia.enableCrashReporter": true,
-    "julia.executablePath": "/usr/bin/julia",
     "explorer.confirmDelete": false,
+    "juliaFormatter.style": "blue",
     "[julia]": {
         "editor.detectIndentation": false,
         "editor.insertSpaces": true,
@@ -64,6 +63,7 @@
         "editor.rulers": [
             92
         ],
+        "editor.defaultFormatter": "singularitti.vscode-julia-formatter",
     },
     "python.languageServer": "Microsoft",
     "vim.easymotion": true,
@@ -146,5 +146,14 @@
     "python.formatting.provider": "black",
     "fortran-ls.lowercaseIntrinsics": true,
     "workbench.iconTheme": "material-icon-theme",
-    "editor.formatOnSave": true
+    "editor.fontFamily": "Iosevka SS14 Extended, Fira Code, JuliaMono",
+    "editor.fontWeight": "500",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Tokyo Night Storm",
+    "dayNightThemeSwitcher.dayTheme": "Ra Spring",
+    "dayNightThemeSwitcher.nightTheme": "Tokyo Night Storm",
+    "files.watcherExclude": {
+        "**/.data": true,
+        "**/*.bson": true
+    },
 }
