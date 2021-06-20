@@ -149,11 +149,23 @@
     "editor.fontFamily": "Iosevka SS14 Extended, Fira Code, JuliaMono",
     "editor.fontWeight": "500",
     "editor.fontLigatures": true,
-    "workbench.colorTheme": "Tokyo Night Storm",
-    "dayNightThemeSwitcher.dayTheme": "Ra Spring",
+    "workbench.colorTheme": "One Dark",
+    "dayNightThemeSwitcher.dayTheme": "Tokyo Night Light",
     "dayNightThemeSwitcher.nightTheme": "Tokyo Night Storm",
     "files.watcherExclude": {
         "**/.data": true,
         "**/*.bson": true
     },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "latex-workshop.view.pdf.viewer": "tab",
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 92,
+    "[markdown]":{
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 92,
+    },
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
 }
