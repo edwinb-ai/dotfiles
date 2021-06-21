@@ -149,7 +149,7 @@
     "editor.fontFamily": "Iosevka SS14 Extended, Fira Code, JuliaMono",
     "editor.fontWeight": "500",
     "editor.fontLigatures": true,
-    "workbench.colorTheme": "One Dark",
+    "workbench.colorTheme": "Dracula Soft",
     "dayNightThemeSwitcher.dayTheme": "Tokyo Night Light",
     "dayNightThemeSwitcher.nightTheme": "Tokyo Night Storm",
     "files.watcherExclude": {
