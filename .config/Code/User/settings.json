@@ -1,6 +1,6 @@
 {
     "window.menuBarVisibility": "toggle",
-    "files.autoSave": "onFocusChange",
+    "files.autoSave": "afterDelay",
     "editor.fontSize": 16,
     "editor.cursorStyle": "block",
     "editor.multiCursorModifier": "ctrlCmd",
@@ -148,7 +148,7 @@
     "editor.fontFamily": "JuliaMono, Iosevka SS14 Extended, Fira Code",
     "editor.fontWeight": "500",
     "editor.fontLigatures": true,
-    "workbench.colorTheme": "Plastic",
+    "workbench.colorTheme": "GitHub Dark Dimmed",
     "dayNightThemeSwitcher.dayTheme": "Tokyo Night Light",
     "dayNightThemeSwitcher.nightTheme": "Tokyo Night Storm",
     "files.watcherExclude": {
@@ -173,4 +173,6 @@
         "jupyter-notebook": "left"
     },
     "julia.symbolCacheDownload": true,
+    "editor.bracketPairColorization.enabled": true,
+    "files.autoSaveDelay": 15000,
 }
