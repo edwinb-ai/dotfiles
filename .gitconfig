@@ -1,6 +1,6 @@
 [user]
 	email = developeredwin@gmail.com
-	signingkey = 7DB5848FF10B42BE
+	signingkey = 44BED1B62D169A26
 [core]
 	editor = vim
 [commit]
@@ -11,3 +11,11 @@
 	defaultBranch = main
 [log]
 	abbrevCommit = true
+[pager]
+    diff = delta
+    log = delta
+    reflog = delta
+    show = delta
+
+[interactive]
+    diffFilter = delta --color-only --features=interactive

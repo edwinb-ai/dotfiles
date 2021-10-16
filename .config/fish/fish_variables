@@ -2,12 +2,10 @@
 # VERSION: 3.0
 SETUVAR ZO_CMD:jo
 SETUVAR Z_CMD:j
-SETUVAR Z_DATA:/home/edwinb/\x2elocal/share/z/data
-SETUVAR Z_DATA_DIR:/home/edwinb/\x2elocal/share/z
-SETUVAR Z_EXCLUDE:\x5e/home/edwinb\x24
+SETUVAR Z_DATA:/home/edwin/\x2elocal/share/z/data
+SETUVAR Z_DATA_DIR:/home/edwin/\x2elocal/share/z
+SETUVAR Z_EXCLUDE:\x5e/home/edwin\x24
 SETUVAR __fish_initialized:3100
-SETUVAR _fisher_jorgebucaran_2F_fisher_files:/home/edwinb/\x2econfig/fish/functions/fisher\x2efish\x1e/home/edwinb/\x2econfig/fish/completions/fisher\x2efish
-SETUVAR _fisher_plugins:jorgebucaran/fisher
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:005fd7
@@ -33,6 +31,6 @@ SETUVAR fish_color_valid_path:\x2d\x2dunderline
 SETUVAR fish_key_bindings:fish_default_key_bindings
 SETUVAR fish_pager_color_completion:\x1d
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
-SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
+SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
-SETUVAR fish_user_paths:/lib64/openmpi/bin\x1e/usr/local/go/bin\x1e/home/edwinb/\x2elocal/bin\x1e/home/edwinb/\x2edotbare
+SETUVAR fish_user_paths:/home/edwin/\x2ecargo/bin\x1e/home/edwin/\x2edotbare

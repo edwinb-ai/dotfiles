@@ -144,7 +144,6 @@
     },
     "python.formatting.provider": "black",
     "fortran-ls.lowercaseIntrinsics": true,
-    "workbench.iconTheme": "material-icon-theme",
     "editor.fontFamily": "JuliaMono, Iosevka SS14 Extended, Fira Code",
     "editor.fontWeight": "500",
     "editor.fontLigatures": true,
@@ -175,4 +174,5 @@
     "julia.symbolCacheDownload": true,
     "editor.bracketPairColorization.enabled": true,
     "files.autoSaveDelay": 15000,
+    "workbench.iconTheme": "material-icon-theme",
 }
