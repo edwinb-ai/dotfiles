@@ -1,6 +1,7 @@
 [user]
 	email = developeredwin@gmail.com
 	signingkey = 89FDC39449280906
+	name = Edwin Bedolla
 [core]
 	editor = vim
 [commit]

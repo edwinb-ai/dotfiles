@@ -1,3 +1,3 @@
 function fishconfig
-    vim $HOME/.config/fish/config.fish
+    code $HOME/.config/fish/config.fish
 end

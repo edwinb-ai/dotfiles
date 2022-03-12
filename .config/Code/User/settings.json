@@ -1,6 +1,6 @@
 {
     "window.menuBarVisibility": "toggle",
-    "files.autoSave": "afterDelay",
+    "files.autoSave": "onFocusChange",
     "editor.fontSize": 16,
     "editor.cursorStyle": "block",
     "editor.multiCursorModifier": "ctrlCmd",
@@ -147,7 +147,7 @@
     "editor.fontFamily": "JuliaMono, Iosevka SS14 Extended, Fira Code",
     "editor.fontWeight": "500",
     "editor.fontLigatures": true,
-    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "workbench.colorTheme": "Tokyo Night Storm",
     "dayNightThemeSwitcher.dayTheme": "Tokyo Night Light",
     "dayNightThemeSwitcher.nightTheme": "Tokyo Night Storm",
     "files.watcherExclude": {
@@ -158,7 +158,6 @@
         "*.ipynb": "jupyter-notebook"
     },
     "latex-workshop.view.pdf.viewer": "tab",
-    "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 92,
     "[markdown]":{
         "editor.wordWrap": "wordWrapColumn",
@@ -175,4 +174,19 @@
     "editor.bracketPairColorization.enabled": true,
     "files.autoSaveDelay": 15000,
     "workbench.iconTheme": "material-icon-theme",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.wordWrap": "bounded",
+    "cSpell.userWords": [
+        "convolutional",
+        "equipartition",
+        "ergodicity",
+        "Hypernetted",
+        "hyperparameters",
+        "overparametrization",
+        "parametrizing",
+        "perceptron",
+        "perceptrons",
+        "sterically",
+        "videogame"
+    ],
 }
