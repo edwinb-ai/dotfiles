@@ -63,7 +63,7 @@
         "editor.rulers": [
             92
         ],
-        "editor.defaultFormatter": "singularitti.vscode-julia-formatter",
+        "editor.defaultFormatter": "julialang.language-julia",
     },
     "vim.easymotion": true,
     "vim.incsearch": true,
@@ -147,9 +147,9 @@
     "editor.fontFamily": "JuliaMono, Iosevka SS14 Extended, Fira Code",
     "editor.fontWeight": "500",
     "editor.fontLigatures": true,
-    "workbench.colorTheme": "Tokyo Night Storm",
+    "workbench.colorTheme": "Tokyo Night Light",
     "dayNightThemeSwitcher.dayTheme": "Tokyo Night Light",
-    "dayNightThemeSwitcher.nightTheme": "Tokyo Night Storm",
+    "dayNightThemeSwitcher.nightTheme": "One Dark Flat",
     "files.watcherExclude": {
         "**/.data": true,
         "**/*.bson": true
