@@ -4,6 +4,7 @@
 	name = Edwin Bedolla
 [core]
 	editor = vim
+	pager = delta
 [commit]
 	gpgsign = true
 [pull]
@@ -12,11 +13,14 @@
 	defaultBranch = main
 [log]
 	abbrevCommit = true
-[pager]
-    diff = delta
-    log = delta
-    reflog = delta
-    show = delta
-
 [interactive]
     diffFilter = delta --color-only --features=interactive
+[delta]
+    navigate = true    # use n and N to move between diff sections
+    light = false
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default

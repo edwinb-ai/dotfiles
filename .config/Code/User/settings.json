@@ -147,15 +147,16 @@
     "editor.fontFamily": "JuliaMono, Iosevka SS14 Extended, Fira Code",
     "editor.fontWeight": "500",
     "editor.fontLigatures": true,
-    "workbench.colorTheme": "Tokyo Night Light",
-    "dayNightThemeSwitcher.dayTheme": "Tokyo Night Light",
-    "dayNightThemeSwitcher.nightTheme": "One Dark Flat",
+    "workbench.colorTheme": "Atom One Light",
+    "dayNightThemeSwitcher.dayTheme": "Atom One Light",
+    "dayNightThemeSwitcher.nightTheme": "One Dark Pro Darker",
     "files.watcherExclude": {
         "**/.data": true,
         "**/*.bson": true
     },
     "workbench.editorAssociations": {
-        "*.ipynb": "jupyter-notebook"
+        "*.ipynb": "jupyter-notebook",
+        "*.pdf": "default"
     },
     "latex-workshop.view.pdf.viewer": "tab",
     "editor.wordWrapColumn": 92,
@@ -189,4 +190,7 @@
         "sterically",
         "videogame"
     ],
+    "cmake.configureOnOpen": true,
+    "window.commandCenter": true,
+    "terminal.integrated.inheritEnv": false,
 }
