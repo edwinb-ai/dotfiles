@@ -147,8 +147,8 @@
     "editor.fontFamily": "JuliaMono, Iosevka SS14 Extended, Fira Code",
     "editor.fontWeight": "500",
     "editor.fontLigatures": true,
-    "workbench.colorTheme": "Atom One Light",
-    "dayNightThemeSwitcher.dayTheme": "Atom One Light",
+    "workbench.colorTheme": "GitHub Dark",
+    "dayNightThemeSwitcher.dayTheme": "Quiet Light",
     "dayNightThemeSwitcher.nightTheme": "One Dark Pro Darker",
     "files.watcherExclude": {
         "**/.data": true,
@@ -160,7 +160,7 @@
     },
     "latex-workshop.view.pdf.viewer": "tab",
     "editor.wordWrapColumn": 92,
-    "[markdown]":{
+    "[markdown]": {
         "editor.wordWrap": "wordWrapColumn",
         "editor.wordWrapColumn": 92,
     },
@@ -174,7 +174,7 @@
     "julia.symbolCacheDownload": true,
     "editor.bracketPairColorization.enabled": true,
     "files.autoSaveDelay": 15000,
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "eq-material-theme-icons",
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "editor.wordWrap": "bounded",
     "cSpell.userWords": [
@@ -193,4 +193,8 @@
     "cmake.configureOnOpen": true,
     "window.commandCenter": true,
     "terminal.integrated.inheritEnv": false,
+    "git.ignoreLegacyWarning": true,
+    "window.zoomLevel": 1,
+    "editor.formatOnSave": true,
+    "git.autofetch": true,
 }
